@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <ul>
+    <li><a class="active" href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="testimonial.html">Testimonial</a></li>
+  </ul>
+
+  <div class="contactheading">
+  <h3>Contact Form</h3>
+</div>
+
+<div class="container">
+  <!-- <form action="/action_page.php"> -->
+    <form method ="POST" action="https://formspree.io/f/mvodyone">  
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">South Africa</option>
+      <option value="canada">USA</option>
+      <option value="usa">Austrailia</option>
+    </select>
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+    <input type="submit" value="Send">
+  </form>
+</div>
+
+</div>
+</body>
+</html>
+</body>
+</html>
