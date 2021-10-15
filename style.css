@@ -246,23 +246,18 @@ input[type=submit]:hover {
     padding: 50px;
     margin: auto;
     border-radius: 5px;
-    margin-left: 500px;
+    
     color: black;
     font-size: 30px;
     
+  }
+}
   }
   .headings{
     animation: wind 5s;
   }
   
-@keyframes wind {
-   from {
-     top: 1000px;
-    }
-  to {
-    top: 50%;
-  }
-}
+
 
   .form {
     text-align: center;
@@ -409,4 +404,4 @@ input[type=submit]:hover {
     }
   }
 
-  
+
